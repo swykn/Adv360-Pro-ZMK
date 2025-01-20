@@ -13,16 +13,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
-
-&mmv {
-};
-
-&msc {
-};
 
 / {
     behaviors {
@@ -46,7 +37,7 @@
             bindings = <
 &trans  &kp F1     &kp F2    &kp F3     &kp F4  &kp F5  &trans                                      &trans  &kp F6           &kp F7     &kp F8      &kp F9      &kp F10       &kp F11
 &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans  &to 0                                       &trans  &kp KP_DIVIDE    &kp KP_N7  &kp KP_N8   &kp KP_N9   &kp KP_MINUS  &kp F12
-&none   &kp LEFT   &kp DOWN  &kp RIGHT  &to 3   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5   &kp KP_N6   &kp KP_PLUS   &kp TAB
+&none   &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5   &kp KP_N6   &kp KP_PLUS   &kp TAB
 &trans  &trans     &trans    &trans     &trans  &trans                  &trans      &trans                  &trans           &kp KP_N1  &kp KP_N2   &kp KP_N3   &kp KP_NUM    &trans
 &trans  &trans     &trans    &trans     &trans          &trans  &trans  &trans      &trans  &trans  &trans                   &kp KP_N0  &kp KP_DOT  &kp KP_DOT  &trans        &trans
             >;
@@ -59,16 +50,6 @@
 &none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none         &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans          &trans          &trans           &trans          &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans           &trans          &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans           &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
