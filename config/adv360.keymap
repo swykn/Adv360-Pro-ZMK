@@ -52,7 +52,7 @@
 &kp TAB    &kp Q         &kp W             &kp E          &kp R         &kp T   &to 1                                                                             &kp EQUAL       &kp Y   &kp U     &kp I      &kp O    &kp P      &kp BSLH
 &mo 1      &kp A         &kp S             &kp D          &kp F         &kp G   &kp F2      &kp LANGUAGE_1  &kp LEFT_BRACKET      &kp KP_NUMLOCK  &kp LANGUAGE_2  &kp DEL         &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
 &kp LSHFT  &kp Z         &kp X             &kp C          &kp V         &kp B                               &kp PG_UP             &kp HOME                                        &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp RIGHT_SHIFT
-&kp ESC    &kp LG(DOWN)  &kp LG(UP_ARROW)  &kp LEFT_META  &kp LEFT_ALT          &kp SPACE   &kp LCTRL       &kp PG_DN             &kp END         &kp BSPC        &kp ENTER               &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &mo 2
+&kp ESC    &kp LG(DOWN)  &kp LG(UP_ARROW)  &kp LEFT_META  &kp LEFT_ALT          &kp SPACE   &kp LCTRL       &kp PG_DN             &kp END         &kp BSPC        &kp ENTER               &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &to 2
             >;
         };
 
@@ -74,7 +74,7 @@
 &none        &mkp MB4       &kp PAGE_DOWN  &kp LC(PG_UP)  &mkp MB5      &none         &to 0                                            &bootloader             &kp HOME        &kp PAGE_DOWN   &kp PG_UP     &kp END          &none  &none
 &to 0        &kp F5         &mkp LCLK      &mkp MB3       &mkp MB2      &kp LC(W)     &none  &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &none
 &none        &kp LC(LS(T))  &none          &none          &none         &none                       &none      &none                                           &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none  &none
-&none        &none          &none          &none          &none                       &none  &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                         &bl BL_INC      &bl BL_DEC    &none            &none  &none
+&none        &none          &none          &none          &none                       &none  &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                         &bl BL_INC      &bl BL_DEC    &none            &none  &to 0
             >;
         };
     };
