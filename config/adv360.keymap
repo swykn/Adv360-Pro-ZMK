@@ -48,11 +48,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp GRAVE  &kp N1        &kp N2            &kp N3         &kp N4        &kp N5  &kp LS(N3)                                                                        &kp LS(LC(N4))  &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp MINUS
-&kp TAB    &kp Q         &kp W             &kp E          &kp R         &kp T   &to 1                                                                             &kp EQUAL       &kp Y   &kp U     &kp I      &kp O    &kp P      &kp BSLH
-&mo 1      &kp A         &kp S             &kp D          &kp F         &kp G   &kp F2      &kp LANGUAGE_1  &kp LEFT_BRACKET      &kp KP_NUMLOCK  &kp LANGUAGE_2  &kp DEL         &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z         &kp X             &kp C          &kp V         &kp B                               &kp PG_UP             &kp HOME                                        &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp RIGHT_SHIFT
-&kp ESC    &kp LG(DOWN)  &kp LG(UP_ARROW)  &kp LEFT_META  &kp LEFT_ALT          &kp SPACE   &kp LCTRL       &kp PG_DN             &kp END         &kp BSPC        &kp ENTER               &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &to 2
+&kp GRAVE  &kp N1        &kp N2            &kp N3         &kp N4        &kp N5  &kp LS(N3)                                                                       &kp LS(LC(N4))  &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp MINUS
+&kp TAB    &kp Q         &kp W             &kp E          &kp R         &kp T   &to 1                                                                            &kp EQUAL       &kp Y   &kp U     &kp I      &kp O    &kp P      &kp BSLH
+&mo 1      &kp A         &kp S             &kp D          &kp F         &kp G   &kp F2      &kp INT_MUHENKAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp INT2  &kp DEL         &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z         &kp X             &kp C          &kp V         &kp B                                 &kp PG_UP             &kp HOME                                     &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp RIGHT_SHIFT
+&kp ESC    &kp LG(DOWN)  &kp LG(UP_ARROW)  &kp LEFT_META  &kp LEFT_ALT          &kp SPACE   &kp LCTRL         &kp PG_DN             &kp END            &kp BSPC  &kp ENTER               &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &to 2
             >;
         };
 
