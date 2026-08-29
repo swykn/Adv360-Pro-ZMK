@@ -71,9 +71,9 @@
             display-name = "Mod";
             bindings = <
 &bootloader  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4  &none                                                      &trans                  &none           &none           &none         &none            &none  &none
-&none        &mkp MB4       &kp PAGE_DOWN  &kp LC(PG_UP)  &mkp MB5      &none         &to 0                                                      &bootloader             &kp HOME        &kp PAGE_DOWN   &kp PG_UP     &kp END          &none  &none
-&to 0        &kp F5         &mkp LCLK      &mkp MB3       &mkp MB2      &kp LC(W)     &none            &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &none
-&none        &kp LC(LS(T))  &none          &none          &none         &none                                 &none      &none                                           &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none  &none
+&none        &mkp MB4       &kp PAGE_DOWN  &kp LC(PG_UP)  &mkp MB5      &none         &to 0                                                      &bootloader             &kp HOME        &kp PAGE_DOWN   &kp PG_UP     &kp END          &none  &kp NUMBER_1
+&to 0        &kp F5         &mkp LCLK      &mkp MB3       &mkp MB2      &kp LC(W)     &none            &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &kp NUMBER_2
+&none        &kp LC(LS(T))  &none          &none          &none         &none                                 &none      &none                                           &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none  &kp RCTRL
 &none        &none          &none          &none          &none                       &rgb_ug RGB_EFF  &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                         &bl BL_INC      &bl BL_DEC    &none            &none  &to 0
             >;
         };
